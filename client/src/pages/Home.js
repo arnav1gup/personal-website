@@ -63,7 +63,7 @@ function Home(){
             <div className="col-lg-10 col-12">
               <div className="mi-home-content">
                 <h1>
-                  Hi, I am <span className="color-theme">Arnav Gupta</span> </h1>
+                  HI, I AM <span className="color-theme">Arnav Gupta</span> </h1>
                 <h1>
                     <span className="color-theme">{count ? (
                     <Typist avgTypingDelay={150} onTypingDone={() => setCount(0)}>

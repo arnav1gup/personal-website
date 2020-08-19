@@ -6,7 +6,6 @@ import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import Skill from '../components/Skill';
-import Testimonial from '../components/Testimonial';
 
 function About(){
   const [toggler, setToggler] = useState(false);
@@ -91,7 +90,9 @@ function About(){
         <div className="container">
           <Sectiontitle title="What I Do" />
           <div className="mi-service-wrapper">
-            <p>"I am a Student, an iOS App Developer, a Full Stack Web Developer, a Web Designer, a CEO and much much more. Check out my website to learn more!"</p>
+            <p>Perhaps a better question would be, what I don't! I am a Student, an iOS App Developer, a Full Stack Web Developer, a Web Designer, 
+              a CEO, an avid investor, a public speaker, a freelancer and much much more. 
+              Check out my website to see all the work I have done in the past, to read my blog and to contact me for any work or business oppurtunities!</p>
           </div>
         </div>
       </div>

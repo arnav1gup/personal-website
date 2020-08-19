@@ -19,6 +19,8 @@ function App() {
           <Route path="/resume" component={Skills} />
           <Route path="/portfolios" component={Projects} />
           <Route path="/work" component={Work} />
+          <Route path="/blogs" component={Blogs} />
+          <Route path="/blogs/blog-details"component={BlogDetails}/>
           <Route path="/contact" component={Contact} />
       </Switch>
     </BrowserRouter>

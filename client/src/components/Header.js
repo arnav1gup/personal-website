@@ -36,7 +36,7 @@ function Header(){
                     <li><NavLink to="/resume"><span>Skills</span></NavLink></li>
                     <li><NavLink to="/portfolios"><span>Projects</span></NavLink></li>
                     <li><NavLink to="/work"><span>Work</span></NavLink></li>
-                    {/*<li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>*/}
+                    <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
                 </ul>
                 <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" >Arnav Gupta</a></b></p>

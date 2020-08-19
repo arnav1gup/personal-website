@@ -5,7 +5,6 @@ import styled from "styled-components";
 function Skill(props){
 
     const devIconStyle = {
-        //fill: "#e26313",
         fill: "#ff2503",
         width: "40px",
         display: "inline-block",
