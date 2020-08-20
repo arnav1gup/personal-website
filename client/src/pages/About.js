@@ -91,7 +91,8 @@ function About(){
           <Sectiontitle title="What I Do" />
           <div className="mi-service-wrapper">
             <p>Perhaps a better question would be, what I don't! I am a Student, an iOS App Developer, a Full Stack Web Developer, a Web Designer, 
-              a CEO, an avid investor, a public speaker, a freelancer and much much more. 
+              a CEO, an avid investor, a public speaker, a freelancer and much much more. I believe that every moment in life should be spent either learning 
+              something new, or improving a skill that you already have and I personally thrive on this motto.
               Check out my website to see all the work I have done in the past, to read my blog and to contact me for any work or business oppurtunities!</p>
           </div>
         </div>

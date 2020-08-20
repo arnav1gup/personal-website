@@ -132,17 +132,48 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "May 2020 - Aug 2020",
+        position: "QA Automation and Full Stack Engineer",
+        company: "Relay Financial",
+        location: "Waterloo, Ontario",
+        detail1: "Conducted heavy API unit tests using Jest, Cypress and Enzyme.",
+        detail2: "Tested external API's by creating local SQLite mocks and stubs and mock jest unit tests."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "Jan 2017 - Apr 2017",
+        position: "Web and Mobile Developer",
+        company: "HiRide",
+        location: "Waterloo, Ontario",
+        detail1: "Worked on development of custome iOS components to complement the existing React Native components and infrastructure.",
+        detail2: "Further improved Javascript skills by working with frameworks such as React.js and Express.js"
+      },
+      {
+        id: 3,
+        year: "Jan 2017 - Apr 2017",
+        position: "CEO and Co-Founder ",
+        company: "CollegeFit",
+        location: "San Francisco, Califronia",
+        detail1: "Led a team to co-found a company in a 4 week incubator at San Francisco aiming to provide better college tours to individuals.",
+        detail2: "Raised $5000 in funding as a result of winning the final pitch competiton."
+      },
+      {
+        id: 4,
+        year: "Currently Employed",
+        position: "iOS Developer",
+        company: "Self Employed",
+        location: "Singapore", 
+        detail1: "Used guerilla advertising to market and attract freelancing and tutoring oppurtunities for iOS development.",
+        detail2: "Succesfully worked on iOS applications for 3 local startups in Singapore."
+      },
+      {
+        id: 5,
+        year: "Jan 2017 - Apr 2017",
+        position: "Finance Manager and Web Developer",
+        company: "United Singapore",
+        location: "Singapore",
+        detail1: "Helped manage finances and negotiate with the Singapore government for funding over $75,000 for non profit events.",
+        detail2: "Developed the United Singapore website using HTML, CSS and Bootstrap components."
       },
     ],
   },
@@ -300,14 +331,8 @@ Mock.onGet("/api/services").reply(config => {
   return [200, response];
 });
 
-
 Mock.onGet("/api/reviews").reply(config => {
   const response = database.reviews;
-  return [200, response];
-});
-
-Mock.onGet("/api/skills").reply(config => {
-  const response = database.skills;
   return [200, response];
 });
 

@@ -30,6 +30,10 @@ function Blogs() {
       <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Recent Blogs" />
+          <div className="mi-home-content mi-padding-section">
+          <h1 className="color-theme">CONTENT COMING SOON...</h1>
+          </div>
+          {/*
           <BlogsView blogs={currentPosts} />
           {!(posts.length > postsPerPage) ? null : (
             <Pagination
@@ -39,7 +43,7 @@ function Blogs() {
               paginate={paginate}
               currentPage={currentPage}
             />
-          )}
+          )}*/}
         </div>
       </div>
     </Layout>
