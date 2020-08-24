@@ -7,7 +7,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
-import Work from "./components/Work";
+import Work from "./pages/Work";
 import BlogDetails from "./pages/BlogDetails";
 
 function App() {

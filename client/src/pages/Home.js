@@ -67,15 +67,15 @@ function Home(){
                 <h1>
                     <span className="color-theme">{count ? (
                     <Typist avgTypingDelay={150} onTypingDone={() => setCount(0)}>
-                      <span>A Developer.</span>
+                      <span>A Developer</span>
                       <Typist.Delay ms={1500} />
-                      <Typist.Backspace count={10} />
-                      <span>&nbsp;Designer.</span>
+                      <Typist.Backspace count={9} />
+                      <span>&nbsp;Designer</span>
                       <Typist.Delay ms={1500} />
-                      <Typist.Backspace count={10} />
-                      <span>&nbsp;Creator.</span>
+                      <Typist.Backspace count={9} />
+                      <span>&nbsp;Creator</span>
                       <Typist.Delay ms={1500} />
-                      <Typist.Backspace count={15} />
+                      <Typist.Backspace count={14} />
                     </Typist>
                 ): (
                     ""
