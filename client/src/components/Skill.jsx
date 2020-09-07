@@ -14,15 +14,12 @@ function Skill(props){
 
   return (
     <div className="mi-service">
-        {/*<span className="mi-service-icon">*/}
-        {/*<DevIcon icon="html5" style={devIconStyle}/>*/}
         <div>
         {Object.values(props.content.icons).map(function(object){
             return <DevIcon icon={object} style={devIconStyle}/>;
         })}
         </div>
       <h5>{props.content.title}</h5>
-        {/*<h6>Level:{props.content.level}</h6>*/}
       <p>{props.content.details}</p>
     </div>
   )

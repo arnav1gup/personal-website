@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import Slider from "react-slick";
 import FsLightbox from "fslightbox-react";
 import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
-import Skill from '../components/Skill';
 
 function About(){
   const [toggler, setToggler] = useState(false);

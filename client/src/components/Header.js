@@ -33,8 +33,8 @@ function Header(){
                 <ul className="mi-header-menu">
                     <li><NavLink exact to="/"><span>Home</span></NavLink></li>
                     <li><NavLink to="/about"><span>About</span></NavLink></li>
-                    <li><NavLink to="/resume"><span>Skills</span></NavLink></li>
-                    <li><NavLink to="/portfolios"><span>Projects</span></NavLink></li>
+                    <li><NavLink to="/skills"><span>Skills</span></NavLink></li>
+                    <li><NavLink to="/projects"><span>Projects</span></NavLink></li>
                     <li><NavLink to="/work"><span>Work</span></NavLink></li>
                     <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>

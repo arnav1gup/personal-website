@@ -7,7 +7,7 @@ const database = {
     socialLinks: {
       facebook: 'https://www.facebook.com/profile.php?id=100013690216223',
       linkedin: 'https://www.linkedin.com/in/arnavgup1/',
-      instagram: 'https://www.instagram.com/arnav.gupta01/',
+      instagram: 'https://www.instagram.com/arnav.gupta1/',
       github: 'https://github.com/arnav1gup'
     },
     brandImage: '/images/test1.png',
@@ -83,11 +83,15 @@ const database = {
       id: 1,
       title: "EasyExpense",
       subtitle: "My first application developed in iOS using xCode and the Swift programming language. Easy Expense helps high schoolers all the way to seniors help track their expenses by using a user friendly UI that can lodge expenses in under 10 seconds!",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      imageUrl: "/images/portfolio-image-1.jpg",
       technologies: "Swift, xCode, Sketch",
+      icons: {
+        icon1: "swift",
+        icon2: "apple"
+      },
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/portfolio-image-1-lg.jpg",
+        "/images/portfolio-image-1-lg2.jpg"
       ],
       url: 'https://apps.apple.com/us/app/easy-expense-expense-tracker/id1358154341?ls=1'
     },
@@ -95,45 +99,85 @@ const database = {
       id: 2,
       title: "This Website!",
       subtitle: "Built completely from scratch using React",
-      imageUrl: "/images/portfolio-image-1.jpg",
+      imageUrl: "/images/portfolio-image-2.jpg",
       technologies: "React.js, Redux, Node.js",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      icons: {
+        icon1: "react",
+        icon2: "node",
+        icon2: "heroku"
+      },
+      largeImageUrl: [
+        "/images/portfolio-image-2-lg.jpg",
+        "/images/portfolio-image-2-lg2.jpg"
+      ],
+      url: 'https://www.arnavgup.com'
     },
+
     {
       id: 3,
-      title: "Altar of RDAI",
-      subtitle: "This was the first time I ever explored anything to do with BlockChain, but the experience was fun and unique. Built at ETH Waterloo, Altar of RDAI is a web app designed in React helped to calculate and invest interest earned by the cryptocurrency DAI into open source blockchain projects",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      technologies: "HTML, CSS, Javascript, DAI(Blockchain)",
-      url: 'https://devpost.com/software/zoltaibis'
+      title: "Who's Coffin",
+      subtitle: "Winner of TO Hacks Facebook Spark AR Challenge, this is an instagram filter inspired by the",
+      imageUrl: "/images/portfolio-image-6.jpg",
+      technologies: "Spark AR Studio, Photoshop",
+      icons: {
+        icon1: "photoshop",
+      },
+      largeImageUrl: [
+        "/images/portfolio-image-6-lg.jpg",
+        "/images/portfolio-image-6-lg2.jpg"
+      ],
+      url: 'https://devpost.com/software/who-s-coffin'
     },
     {
       id: 4,
-      title: "Periodic Table Glossary",
-      subtitle: "One of the first things I ever programmed. Built in C++ this Periodic Table glossary was to help middle schoolers in my school learn interesting and quick facts about the periodic table and help themmake flashcards for their tests!",
+      title: "Altar of RDAI",
+      subtitle: "Built at ETH Waterloo 2019, This was the first time I ever explored anything to do with BlockChain, but the experience was fun and unique. Built at ETH Waterloo, Altar of RDAI is a web app designed in React helped to calculate and invest interest earned by the cryptocurrency DAI into open source blockchain projects",
       imageUrl: "/images/portfolio-image-3.jpg",
-      technologies: "C++",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: 'https://github.com/arnav1gup/C-Periodic-Table-Glossary'
+      technologies: "HTML, CSS, Javascript, DAI(Blockchain)",
+      icons: {
+        icon1: "javascript",
+        icon2: "html5",
+        icon3: "css3",
+      },
+      largeImageUrl: [
+        "/images/portfolio-image-3-lg.jpg",
+        "/images/portfolio-image-3-lg2.jpg"
+      ],
+      url: 'https://devpost.com/software/zoltaibis'
     },
     {
       id: 5,
+      title: "Periodic Table Glossary",
+      subtitle: "One of the first things I ever programmed. Built in C++, this Periodic Table glossary was to help middle schoolers in my school learn interesting and quick facts about the periodic table and help themmake flashcards for their tests!",
+      imageUrl: "/images/portfolio-image-4.jpg",
+      technologies: "C++",
+      icons: {
+        icon1: "cplusplus"
+      },
+      largeImageUrl: [
+        "/images/portfolio-image-4-lg.jpg",
+        "/images/portfolio-image-4-lg2.jpg"
+      ],
+      url: 'https://github.com/arnav1gup/C-Periodic-Table-Glossary'
+    },
+    {
+      id: 6,
       title: "HLTH Track",
       subtitle: "Placing 2nd in Golden Hacks 2019, HLTH Track is a react application that helps patients keep medical records, documents, vaccination history, and other important medical data and have access to them right at their fingertips. ",
       imageUrl: "/images/portfolio-image-5.jpg",
       technologies: "React.js, Node.js, Figma",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"],
+      icons: {
+        icon1: "react",
+        icon2: "nodejs",
+        icon3: "express",
+        icon4: "photoshop"
+      },
+      largeImageUrl: [
+        "/images/portfolio-image-5-lg.jpg",
+        "/images/portfolio-image-5-lg2.jpg"
+      ],
       url: 'https://devpost.com/software/hlthtrack'
     },
-    {
-      id: 6,
-      title: "Who's Coffin",
-      subtitle: "Winner of TO Hacks Facebook Spark AR Challenge, this is an instagram filter inspired by the",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"],
-      url: 'https://devpost.com/software/who-s-coffin'
-    }
   ],
   experience: {
     workingExperience: [

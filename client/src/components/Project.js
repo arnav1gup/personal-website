@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import * as Icon from "react-feather";
 import FsLightbox from "fslightbox-react";
 import Modal from 'react-awesome-modal';
+import ModalTemp from "./Modal";
 
 function Project(props) {
   const [toggler, setToggler] = useState(false);
-  const {title, subtitle, imageUrl, largeImageUrl, url} = props.content;
+  const {title, subtitle, imageUrl, technologies, largeImageUrl, url} = props.content;
   const [visible, setVisible] = useState(false);
   
   const handleToggler = (value) => {
@@ -23,13 +24,6 @@ function Project(props) {
     <div className={props.isVisible ? "mi-portfolio mi-portfolio-visible" : "mi-portfolio"}>
       <div className="mi-portfolio-image">
         <img src={imageUrl} alt={title} />
-        <ul>
-          { url ? <li>
-            <a rel="noopener noreferrer" target="_blank" href={url}>
-              <Icon.Link/>
-            </a>
-          </li> : null}
-        </ul>
       </div>
       {!url ? <h5>{title}</h5> : <h5>
         <a rel="noopener noreferrer" target="_blank" href={url}>
@@ -37,13 +31,9 @@ function Project(props) {
         </a>
       </h5>}
       <b></b>
-      <a href="javascript:void(0);" onClick={()=>openModal()} className="mi-readmore">Description</a>
-      <Modal visible={visible} width="400" height="300" effect="fadeInUp" onClickAway={()=>this.closeModal()}>
-            <div>
-              <p>{subtitle}</p>
-              <a href="javascript:void(0);" onClick={()=>closeModal()}>Close</a>
-            </div>
-
+      <a href="javascript:void(0);" onClick={()=>openModal()} className="mi-readmore">Read More</a>
+      <Modal visible={visible} width="400" effect="fadeInUp" onClickAway={()=>closeModal()}>
+            <ModalTemp content={props.content}/>
       </Modal>
       {/*{subtitle ? <h6>{subtitle}</h6> : null}*/}
       {!largeImageUrl ? null : <FsLightbox
