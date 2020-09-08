@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/%7Bpersonal-website%7D/static/css/main.b9e28153.chunk.css",
+    "main.js": "/%7Bpersonal-website%7D/static/js/main.65da5808.chunk.js",
+    "main.js.map": "/%7Bpersonal-website%7D/static/js/main.65da5808.chunk.js.map",
+    "runtime-main.js": "/%7Bpersonal-website%7D/static/js/runtime-main.bb7083a1.js",
+    "runtime-main.js.map": "/%7Bpersonal-website%7D/static/js/runtime-main.bb7083a1.js.map",
+    "static/css/2.3f73efa0.chunk.css": "/%7Bpersonal-website%7D/static/css/2.3f73efa0.chunk.css",
+    "static/js/2.b176d995.chunk.js": "/%7Bpersonal-website%7D/static/js/2.b176d995.chunk.js",
+    "static/js/2.b176d995.chunk.js.map": "/%7Bpersonal-website%7D/static/js/2.b176d995.chunk.js.map",
+    "index.html": "/%7Bpersonal-website%7D/index.html",
+    "precache-manifest.711ca340b92e722a5e399e88ff6b709f.js": "/%7Bpersonal-website%7D/precache-manifest.711ca340b92e722a5e399e88ff6b709f.js",
+    "service-worker.js": "/%7Bpersonal-website%7D/service-worker.js",
+    "static/css/2.3f73efa0.chunk.css.map": "/%7Bpersonal-website%7D/static/css/2.3f73efa0.chunk.css.map",
+    "static/css/main.b9e28153.chunk.css.map": "/%7Bpersonal-website%7D/static/css/main.b9e28153.chunk.css.map",
+    "static/js/2.b176d995.chunk.js.LICENSE.txt": "/%7Bpersonal-website%7D/static/js/2.b176d995.chunk.js.LICENSE.txt",
+    "static/media/boost-your-post-for-increasing-sales.md": "/%7Bpersonal-website%7D/static/media/boost-your-post-for-increasing-sales.7c33af2f.md",
+    "static/media/difference-between-gatsbyjs-and-nextjs.md": "/%7Bpersonal-website%7D/static/media/difference-between-gatsbyjs-and-nextjs.9f553f26.md",
+    "static/media/future-of-javascript.md": "/%7Bpersonal-website%7D/static/media/future-of-javascript.8cc16894.md",
+    "static/media/how-to-choose-javascript-framework-for-project.md": "/%7Bpersonal-website%7D/static/media/how-to-choose-javascript-framework-for-project.94fbd384.md",
+    "static/media/how-to-get-10k-instagram-followers.md": "/%7Bpersonal-website%7D/static/media/how-to-get-10k-instagram-followers.6566a292.md",
+    "static/media/installing-nodejs-on-your-device.md": "/%7Bpersonal-website%7D/static/media/installing-nodejs-on-your-device.368cc11c.md",
+    "static/media/markdown-html-supported-blog.md": "/%7Bpersonal-website%7D/static/media/markdown-html-supported-blog.c7fe48e6.md",
+    "static/media/popular-javascript-library-in-2020.md": "/%7Bpersonal-website%7D/static/media/popular-javascript-library-in-2020.d4881e73.md",
+    "static/media/programmers-must-read-books.md": "/%7Bpersonal-website%7D/static/media/programmers-must-read-books.d490be27.md",
+    "static/media/slick-theme.css": "/%7Bpersonal-website%7D/static/media/slick.f97e3bbf.svg",
+    "static/media/think-out-of-the-box.md": "/%7Bpersonal-website%7D/static/media/think-out-of-the-box.c0c0a9c9.md",
+    "static/media/time-to-use-latest-technology-for-creating-a-website.md": "/%7Bpersonal-website%7D/static/media/time-to-use-latest-technology-for-creating-a-website.ea70d882.md",
+    "static/media/trending-designs-in-2020.md": "/%7Bpersonal-website%7D/static/media/trending-designs-in-2020.8e1efcf2.md",
+    "static/media/uiux-design-starter-with-adobe-xd.md": "/%7Bpersonal-website%7D/static/media/uiux-design-starter-with-adobe-xd.c7973cd5.md",
+    "static/media/web-automation-with-python-language.md": "/%7Bpersonal-website%7D/static/media/web-automation-with-python-language.a1c7c37f.md",
+    "static/media/what-nodejs-can-do.md": "/%7Bpersonal-website%7D/static/media/what-nodejs-can-do.40686a4e.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb7083a1.js",
+    "static/css/2.3f73efa0.chunk.css",
+    "static/js/2.b176d995.chunk.js",
+    "static/css/main.b9e28153.chunk.css",
+    "static/js/main.65da5808.chunk.js"
+  ]
+}
