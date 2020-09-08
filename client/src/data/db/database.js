@@ -90,25 +90,22 @@ const database = {
         icon2: "apple"
       },
       largeImageUrl: [
-        "/images/portfolio-image-1-lg.jpg",
-        "/images/portfolio-image-1-lg2.jpg"
       ],
       url: 'https://apps.apple.com/us/app/easy-expense-expense-tracker/id1358154341?ls=1'
     },
     {
       id: 2,
       title: "This Website!",
-      subtitle: "Built completely from scratch using React",
+      subtitle: "Built completely from scratch using React.js, this website is my first venture into web devlopment, using different npm packages made for react, I was able to play around with different components and animations to explore react's ability to the fullest.",
       imageUrl: "/images/portfolio-image-2.jpg",
       technologies: "React.js, Redux, Node.js",
       icons: {
         icon1: "react",
-        icon2: "node",
-        icon2: "heroku"
+        icon2: "nodejs",
+        icon3: "heroku"
       },
       largeImageUrl: [
-        "/images/portfolio-image-2-lg.jpg",
-        "/images/portfolio-image-2-lg2.jpg"
+
       ],
       url: 'https://www.arnavgup.com'
     },
@@ -116,15 +113,14 @@ const database = {
     {
       id: 3,
       title: "Who's Coffin",
-      subtitle: "Winner of TO Hacks Facebook Spark AR Challenge, this is an instagram filter inspired by the",
-      imageUrl: "/images/portfolio-image-6.jpg",
+      subtitle: "Winner of TO Hacks Facebook Spark AR Challenge, this is an instagram filter inspired by the popular coffin meme circulating around social media. This project was different to the rest of mine, as it used different technologies such as Facebook Spark AR Studio, and allowed me to use my heavy knowledge of Photoshop.",
+      imageUrl: "/public/images/portfolio-image-6.jpg",
       technologies: "Spark AR Studio, Photoshop",
       icons: {
         icon1: "photoshop",
       },
       largeImageUrl: [
-        "/images/portfolio-image-6-lg.jpg",
-        "/images/portfolio-image-6-lg2.jpg"
+
       ],
       url: 'https://devpost.com/software/who-s-coffin'
     },
@@ -140,8 +136,6 @@ const database = {
         icon3: "css3",
       },
       largeImageUrl: [
-        "/images/portfolio-image-3-lg.jpg",
-        "/images/portfolio-image-3-lg2.jpg"
       ],
       url: 'https://devpost.com/software/zoltaibis'
     },
@@ -192,7 +186,7 @@ const database = {
       },
       {
         id: 2,
-        year: "Jan 2017 - Apr 2017",
+        year: "Jan 2020 - Apr 2020",
         position: "Web and Mobile Developer",
         company: "HiRide",
         location: "Waterloo, Ontario",
@@ -201,7 +195,7 @@ const database = {
       },
       {
         id: 3,
-        year: "Jan 2017 - Apr 2017",
+        year: "July 2018 - Ongoing",
         position: "CEO and Co-Founder ",
         company: "CollegeFit",
         location: "San Francisco, Califronia",
@@ -210,7 +204,7 @@ const database = {
       },
       {
         id: 4,
-        year: "Ongoing",
+        year: "July 2017 - Ongoing",
         position: "iOS Developer",
         company: "Self Employed",
         location: "Singapore", 
