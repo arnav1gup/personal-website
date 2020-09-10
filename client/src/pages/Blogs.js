@@ -14,7 +14,7 @@ function Blogs() {
     axios.get("/api/blog").then(response => {
       setPosts(response.data);
     });
-  }, [posts]);
+  }, []);
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;

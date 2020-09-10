@@ -52,7 +52,7 @@ function Home(){
 
   useEffect(() => {
     setCount(1);
-  }, [count]);
+  });
 
   return (
     <Layout>
@@ -63,8 +63,9 @@ function Home(){
             <div className="col-lg-10 col-12">
               <div className="mi-home-content">
                 <h1>
-                  HI, I AM <span className="color-theme">Arnav Gupta</span> </h1>
-                <h1>
+                  HI, I AM <span className="color-theme">Arnav Gupta</span> 
+                </h1>
+                <h2>
                     <span className="color-theme">{count ? (
                     <Typist avgTypingDelay={150} onTypingDone={() => setCount(0)}>
                       <span>A Developer</span>
@@ -80,7 +81,7 @@ function Home(){
                 ): (
                     ""
                 )}</span>
-                </h1>
+                </h2>
                 {<p>{information.aboutContent}</p>}
                 <a href={information.cvfile} className="mi-button">Download CV</a>
                 <Socialicons bordered />

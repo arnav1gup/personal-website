@@ -16,7 +16,7 @@ function BlogDetails(props) {
         setContent(result.data);
       })
       .catch(err => console.log(err));
-  }, [content]);
+  }, []);
 
   const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
   const disqusConfig = {

@@ -20,30 +20,29 @@ const database = {
     {
       title: "iOS App Development",
       icons: {
-        icon1: "swift",
-        icon2: "apple",
+        icon1: "devicon-swift-plain",
+        icon2: "devicon-apple-original",
       },
       details: "Proficient in iOS App Development using Swift4. Have relevant experience in CoreData, Auto Layout, UIKIt and other frameworks."
     },
     {
       title: "Frontend Development",
       icons: {
-        icon1: "html5",
-        icon2: "css3",
-        icon3: "javascript",
-        icon4: "bootstrap",
-        icon5: "wordpress"
+        icon1: "devicon-html5-plain",
+        icon2: "devicon-css3-plain",
+        icon3: "devicon-javascript-plain",
+        icon4: "devicon-bootstrap-plain",
+        icon5: "devicon-wordpress-plain"
       },
-      icon: 'code',
       details: "Experienced in creating custom websites with HTML5, CSS, Javascript and Bootstrap components as well as creating websites using " +
           "website deployment platforms such as Wordpress and Wix."
     },
     {
       title: "Backend Development",
       icons: {
-        icon1: "mongodb",
-        icon2: "mysql",
-        icon3: "heroku",
+        icon1: "devicon-mongodb-plain",
+        icon2: "devicon-mysql-plain",
+        icon3: "devicon-heroku-plain",
       },
       details: "Experienced in writing queries and using MongoDB with Mongoose, and SQL as Databases. Additionally familiar with deploying web applications using " +
           "Heroku."
@@ -51,10 +50,10 @@ const database = {
     {
       title: "Javascript Frameworks",
       icons: {
-        icon1: "react",
-        icon2: "nodejs",
-        icon3: "express",
-        icon4: "jquery",
+        icon1: "devicon-react-original",
+        icon2: "devicon-nodejs-plain",
+        icon3: "devicon-express-original",
+        icon4: "devicon-jquery-plain",
       },
       details: "Thorough experience with using React.js, Node.js, and Express.js to make web applications fullstack with " +
           "efficient frontend and serverside communication as well as using jQuery for mild animations."
@@ -62,17 +61,17 @@ const database = {
     {
       title: "Imperative Programming",
       icons: {
-        icon1: "csimple",
-        icon2: "cplusplus",
-        icon3: "python",
+        icon1: "devicon-c-plain",
+        icon2: "devicon-cplusplus-plain",
+        icon3: "devicon-python-plain",
       },
       details: "Experienced in Object Oriented programming, algorithmic programming and basic abstract data structures using languages such as C, C++, and Python."
     },
     {
       title: "Web Design",
       icons: {
-        icon1: "photoshop",
-        icon2: "illustrator"
+        icon1: "devicon-photoshop-plain",
+        icon2: "devicon-illustrator-plain"
       },
       details: "Proficient in creating UI Mockups, Icons and Web Design Templates using softwares such as Adobe Photoshop, " +
           "Adobe Illustrator, Sketch and Figma."
@@ -86,8 +85,8 @@ const database = {
       imageUrl: "/images/portfolio-image-1.jpg",
       technologies: "Swift, xCode, Sketch",
       icons: {
-        icon1: "swift",
-        icon2: "apple"
+        icon1: "devicon-swift-plain",
+        icon2: "devicon-apple-original"
       },
       largeImageUrl: [
       ],
@@ -100,9 +99,9 @@ const database = {
       imageUrl: "/images/portfolio-image-2.jpg",
       technologies: "React.js, Redux, Node.js",
       icons: {
-        icon1: "react",
-        icon2: "nodejs",
-        icon3: "heroku"
+        icon1: "devicon-react-original",
+        icon2: "devicon-nodejs-plain",
+        icon3: "devicon-heroku-plain"
       },
       largeImageUrl: [
 
@@ -114,10 +113,10 @@ const database = {
       id: 3,
       title: "Who's Coffin",
       subtitle: "Winner of TO Hacks Facebook Spark AR Challenge, this is an instagram filter inspired by the popular coffin meme circulating around social media. This project was different to the rest of mine, as it used different technologies such as Facebook Spark AR Studio, and allowed me to use my heavy knowledge of Photoshop.",
-      imageUrl: "/public/images/portfolio-image-6.jpg",
+      imageUrl: "/images/portfolio-image-6.jpg",
       technologies: "Spark AR Studio, Photoshop",
       icons: {
-        icon1: "photoshop",
+        icon1: "devicon-photoshop-plain",
       },
       largeImageUrl: [
 
@@ -131,9 +130,9 @@ const database = {
       imageUrl: "/images/portfolio-image-3.jpg",
       technologies: "HTML, CSS, Javascript, DAI(Blockchain)",
       icons: {
-        icon1: "javascript",
-        icon2: "html5",
-        icon3: "css3",
+        icon1: "devicon-javascript-plain",
+        icon2: "devicon-html5-plain",
+        icon3: "devicon-css3-plain",
       },
       largeImageUrl: [
       ],
@@ -146,7 +145,7 @@ const database = {
       imageUrl: "/images/portfolio-image-4.jpg",
       technologies: "C++",
       icons: {
-        icon1: "cplusplus"
+        icon1: "devicon-cplusplus-plain"
       },
       largeImageUrl: [
         "/images/portfolio-image-4-lg.jpg",
@@ -161,10 +160,10 @@ const database = {
       imageUrl: "/images/portfolio-image-5.jpg",
       technologies: "React.js, Node.js, Figma",
       icons: {
-        icon1: "react",
-        icon2: "nodejs",
-        icon3: "express",
-        icon4: "photoshop"
+        icon1: "devicon-react-original",
+        icon2: "devicon-nodejs-plain",
+        icon3: "devicon-express-original",
+        icon4: "devicon-photoshop-plain"
       },
       largeImageUrl: [
         "/images/portfolio-image-5-lg.jpg",

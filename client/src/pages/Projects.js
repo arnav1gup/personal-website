@@ -9,22 +9,14 @@ import ProjectsView from "../components/ProjectsView";
 function Projects() {
   const [portfolios, setPortfoios] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [workingExperience, setWorkingExperience] = useState([]);
   const [portfoliosPerPage] = useState(9);
 
   useEffect(() => {
-    axios.get('/api/portfolios')
+   axios.get('/api/portfolios')
       .then( response => {
         setPortfoios(response.data);
       })
-  }, [portfolios]);
-
-  useEffect(() =>{
-    axios.get('/api/experience')
-        .then(response =>{
-          setWorkingExperience(response.data.workingExperience);
-        })
-  }, [])
+  }, []);
 
   const indexOfLastPortfolios = currentPage * portfoliosPerPage;
   const indexOfFirstPortfolios = indexOfLastPortfolios - portfoliosPerPage;

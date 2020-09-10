@@ -4,19 +4,19 @@ import styled from "styled-components";
 
 function ModalTemp(props){
 
-  const devIconStyle = {
-    fill: "#ff2503",
-    width: "40px",
+  const myStyle = {
+    fontSize: "40px",
+    color: "#ff2503",
     display: "inline-block",
     marginBottom: "20px",
     marginRight: "10px"
-};
+  }
 
   return (
     <div className="mi-service">
-      <div>
+        <div>
         {Object.values(props.content.icons).map(function(object){
-            return <DevIcon icon={object} style={devIconStyle}/>;
+            return <i style={myStyle} class={object}></i>
         })}
         </div>
       <h5 className="something2">{props.content.title}</h5>
