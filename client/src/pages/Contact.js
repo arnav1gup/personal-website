@@ -3,6 +3,11 @@ import axios from 'axios';
 import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
+import emailjs from 'emailjs-com';
+
+function sendEmail(e) {
+  
+}
 
 function Contact(){
   const [phoneNumbers, setPhoneNumbers] = useState([]);
@@ -18,6 +23,8 @@ function Contact(){
 
   const submitHandler = (event) =>{
     event.preventDefault();
+
+
     if( !formdata.name ){
       setError(true);
       setMessage('Name is required');
@@ -32,6 +39,17 @@ function Contact(){
       setMessage('Message is required');
     } else{
       setError(false);
+      emailjs.sendForm('service_i7q42xq', 'template_be9vx2a', event.target, 'user_fudcg4FtpyDfHeVerNfEA')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+      formdata.message = ""
+      formdata.email = null
+      formdata.name = null
+      formdata.subject = null
+      event.target.reset()
       setMessage('You message has been sent!!!');
     }
   }
@@ -52,7 +70,7 @@ function Contact(){
         <div className="alert alert-danger mt-4">
           {message}
         </div>
-      )
+      ) 
     } else if(!error && message){
       return (
         <div className="alert alert-success mt-4">

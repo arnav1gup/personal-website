@@ -11,6 +11,7 @@ const database = {
       github: 'https://github.com/arnav1gup'
     },
     brandImage: '/images/test1.png',
+    logoImage: '/images/logo-image.png',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
     cvfile: '/files/resume.pdf'

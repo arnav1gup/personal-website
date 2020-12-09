@@ -39,6 +39,11 @@ function Header(){
                     <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
                 </ul>
+                <div className="mi-header-logo">
+                    <Link to="/">
+                        <img src={information.logoImage} alt="logoImage"/>
+                    </Link>
+                </div>
                 <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" >Arnav Gupta</a></b></p>
             </div>
         </nav>

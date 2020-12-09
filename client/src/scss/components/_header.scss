@@ -63,6 +63,23 @@
         }
     }
 
+    &-logo {
+        display: block;
+        padding: 25px 0;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid $color-border;
+
+        a {
+            height: 125px;
+            width: 80px;
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: bottom;
+            padding-top: 30px;
+        }
+    }
+
     &-menu {
         width: 100%;
         padding: 15px 5px;
